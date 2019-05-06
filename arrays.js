@@ -1,4 +1,5 @@
 // Arrays - variables that hold multiple values
+// Arrays are 0 based - ie starts off at '0'
 
 const fruits = ['apples', 'oranges', 'pears']; // cannot reassign the array
 

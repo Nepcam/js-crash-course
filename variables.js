@@ -1,7 +1,7 @@
 // --Variables--
 // variables let, const. 
 // let' you can reassign values
-// const' constant, it can't changed or reassigned.
+// const' (constant), it can't changed or reassigned.
 // Always use const - unless you know you are going to reassign the value
 
 let age = 30;
