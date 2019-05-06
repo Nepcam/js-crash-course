@@ -19,6 +19,8 @@ const todos = [
     
 ];
 
+// For loop
+
 for(let i = 0; i < todos.length; i++) {  // assignment of the iterator or variable (i), the condition (i) is less than 10, the increment (i)++ 
 
     //console.log(todos[i].text); // this will run the assignment(i), until it meets the condition (i < 10) is true, the increment (i)++ will stop at the condition  
@@ -32,7 +34,7 @@ while(i < 10) {
 }
 
 for(let todo of todos) {
-    // console.log(todo.text)
+    console.log(todo.text)
 }
 
 // 
@@ -54,4 +56,4 @@ const todoCompleted = todos.filter(function(todo){ // filter
     return todo.text
 })
 
-console.log(todoComleted)
+//console.log(todoComleted)
